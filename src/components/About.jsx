@@ -8,23 +8,19 @@ const About = () => {
                <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>About</p>   
             </div>
             <p className='text-xl mt-20'>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-              perspiciatis tempora magni consequuntur unde at rem ipsa magnam 
-              architecto quis ea harum sed vero quia. Aliquid ab inventore laborum
-               ut distinctio necessitatibus consequuntur iste commodi obcaecati
-                perspiciatis et non, itaque tenetur provident magni, sed labore atque 
-                eveniet! Aliquam, repellat possimus.
+            I am a final year B.Tech student with a fervent 
+            passion for full-stack development. Proficient in HTML, CSS, JavaScript, and frameworks like React,
+             I have successfully crafted dynamic web interfaces, complemented by my backend expertise in Node.js, 
+             Express, and MongoDB.
             </p>
 
             <br />
 
             <p className=' text-xl'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
-              perspiciatis tempora magni consequuntur unde at rem ipsa magnam 
-              architecto quis ea harum sed vero quia. Aliquid ab inventore laborum
-               ut distinctio necessitatibus consequuntur iste commodi obcaecati
-                perspiciatis et non, itaque tenetur provident magni, sed labore atque 
-                eveniet! Aliquam, repellat possimus.
+            My journey is enriched by a commitment to mastering Data Structures and Algorithms,
+              evident in my engagement with coding challenges and competitions. Through a collection of impactful web
+               projects, I have demonstrated my creativity and problem-solving skills. As I near the end of my academic
+                journey, I am excited to channel my skills and enthusiasm into a rewarding career in the tech industry.
             </p>
         </div>
       

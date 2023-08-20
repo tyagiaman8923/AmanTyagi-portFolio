@@ -6,7 +6,7 @@ import insta from "../assets/3225191_app_instagram_logo_media_popular_icon.png";
 
 const Home = () => {
   return (
-    <div className='h-full md:h-[80vh] w-full pt-[96px] md:pt-8 bg-gradient-to-b from-black via-black to-gray-800' name='home'>
+    <div className='h-full md:h-[80vh] w-full pt-[100px] md:pt-8 bg-gradient-to-b from-black via-black to-gray-800' name='home'>
 
       <div className='h-full max-w-[1024px] mx-auto flex flex-col md:flex-row'>
         
@@ -16,19 +16,19 @@ const Home = () => {
 
         <div className='flex flex-col h-full justify-center items-center md:items-start gap-4 lg:gap-8 p-4 w-full md:w-[60%]'>
            <h2 className=' text-4xl sm:text-7xl font-bold text-white'>I am a Full stack developer</h2>
-            <p className=' text-gray-400 py-4 w-[90%] md:max-w-md'>I have a eight years experience building and designing software
-                .Currentlt I love to work on web application using technologies like React, Tailwind 
-                , Next Js and Graphics.
+            <p className=' text-gray-400 py-4 w-[90%] md:max-w-md'>Hey there, I'm Aman Tyagi I'm a final year B.Tech student and a full stack 
+            developer with a penchant for turning ideas into interactive digital experiences. Join me as I showcase my journey through a collection
+             of projects that blend creativity and technology.
             </p>
-            <div className='flex gap-2 items-center justify-center'>
+            <div className='flex gap-4 items-center justify-center'>
                 <div className=' h-14 w-14 rounded-full cursor-pointer'>
-                  <a href="https://github.com/tyagiaman8923"><img src={github} alt="" /></a>
+                  <a href="https://github.com/tyagiaman8923"><img className='h-full w-full' src={github} alt="" /></a>
                 </div>
                 <div className=' h-14 w-14 rounded-full  cursor-pointer'>
                  <a href="https://www.instagram.com/tyagiaman8923/"> <img className='h-full w-full' src={insta} alt="" /></a>
                 </div>
                 <div className=' h-14 w-14 rounded-2xl  cursor-pointer'>
-                  <a href="https://www.linkedin.com/in/aman-tyagi-033322262/"><img src={linkdin} alt="" /></a>
+                  <a href="https://www.linkedin.com/in/aman-tyagi-033322262/"><img className='h-full w-full' src={linkdin} alt="" /></a>
                 </div>
             </div>
             <div className='flex gap-2 items-center justify-center'>
