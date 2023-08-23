@@ -16,7 +16,7 @@ const Home = () => {
 
         <div className='flex flex-col h-full justify-center items-center md:items-start gap-4 lg:gap-8 p-4 w-full md:w-[60%]'>
            <h2 className=' text-4xl sm:text-7xl font-bold text-white'>I am a Full stack developer</h2>
-            <p className=' text-gray-400 py-4 w-[90%] md:max-w-md'>Hey there, I'm Aman Tyagi I'm a final year B.Tech student and a full stack 
+            <p className=' text-gray-400 py-4 w-[90%] md:max-w-md'>Hey there, I'm Aman Tyagi, I'm a final year B.Tech student and a full stack 
             developer with a penchant for turning ideas into interactive digital experiences. Join me as I showcase my journey through a collection
              of projects that blend creativity and technology.
             </p>
