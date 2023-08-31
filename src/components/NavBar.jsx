@@ -9,22 +9,27 @@ const [nav, setNav]=useState(false);
         {
           id: 1,
           link: "Home",
+          csid:"#home",
         },
         {
         id: 2,
         link: "about",
+        csid:"#about",
         },
         {
         id: 3,
         link: "Projects",
+        csid:"#projects",
         },
         {
         id: 4,
         link: "experience",
+        csid:"#experience",
         },
         {
         id: 5,
         link: "contact",
+        csid:"#contact",
         },
     ];
   return (
@@ -35,10 +40,10 @@ const [nav, setNav]=useState(false);
        </div>
        <ul className=' hidden md:flex'>
 
-        {links.map(({id, link})=>(
-            <li key={id} id='{id}' className=' pr-3 lg:px-4 cursor-pointer capitalize font-bold lg:text-xl
+        {links.map(({id, link, csid})=>(
+            <li key={id}  className=' pr-3 lg:px-4 cursor-pointer capitalize font-bold lg:text-xl
              text-gray-500 hover:scale-105 hover:border-b-2 border-gray-500
-             duration-200'>{link}</li>
+             duration-200 '><a href={csid}>{link}</a></li>
         ))}
        </ul>
 
@@ -48,9 +53,9 @@ const [nav, setNav]=useState(false);
 
        {nav &&(
          <ul className=' flex flex-col justify-center items-center absolute top-0 right-0 w-[290px] h-[450px] bg-gradient-to-b from-black to-gray-800 text-gray-500 rounded-lg md:hidden'>
-            {links.map(({id, link})=>(
+            {links.map(({id, link,csid})=>(
             <li key={id} className='px-4 cursor-pointer capitalize py-6 text-4xl'>
-                {link}
+                <a href={csid}>{link}</a>
             </li>
         ))}
          </ul>

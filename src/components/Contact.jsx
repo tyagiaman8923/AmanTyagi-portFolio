@@ -7,8 +7,8 @@ import facebook from "../assets/5296499_fb_facebook_facebook logo_icon.png"
 const Contact = () => {
   return (
     <div
-      name="contact"
-      className="w-full min-h-full h-[60vh] bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+      name="contact" id='contact'
+      className="w-full min-h-[380px] md:h-[60vh] bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
       <div className="flex flex-col p-4  max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

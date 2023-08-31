@@ -62,7 +62,7 @@ const Experience = () => {
 
   return (
     <div
-      name="experience"
+      name="experience" id='experience'
       className="bg-gradient-to-b from-gray-800 to-black w-full min-h-full md:h-[90vh]"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
@@ -73,7 +73,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-2 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-5 md:gap-8 text-center py-8 px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
