@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/IMG20220510105121.jpg'
+import HeroImage from '../assets/WhatsApp Image 2023-10-17 at 1.19.40 PM.jpeg'
 import github from "../assets/github.png";
 import linkdin from "../assets/317750_linkedin_icon.png";
 import insta from "../assets/3225191_app_instagram_logo_media_popular_icon.png";
@@ -11,11 +11,11 @@ const Home = () => {
       <div className='h-full max-w-[1024px] mx-auto flex flex-col md:flex-row'>
         
         <div className='h-full w-full md:w-[40%] flex justify-center items-center'>
-            <img src={HeroImage} alt="my profile" className=' rounded-full w-[60%] md:w-[95%]'/>
+            <img src={HeroImage} alt="my profile" className=' rounded-3xl w-[60%] md:w-[95%]'/>
         </div>
 
         <div className='flex flex-col h-full justify-center items-center md:items-start gap-4 lg:gap-8 p-4 w-full md:w-[60%]'>
-           <h2 className=' text-4xl sm:text-7xl font-bold text-white text-center md:text-left'>I am a Full stack developer</h2>
+           <h2 className=' text-4xl lg:text-7xl font-bold text-white text-center md:text-left'>I am a Full stack developer</h2>
             <p className=' text-gray-400 py-4 w-[90%] md:max-w-md'>Hey there, I'm Aman Tyagi, I'm a final year B.Tech student and a full stack 
             developer with a penchant for turning ideas into interactive digital experiences. Join me as I showcase my journey through a collection
              of projects that blend creativity and technology.

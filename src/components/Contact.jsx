@@ -20,7 +20,7 @@ const Contact = () => {
             
             <div className='flex items-center justify-center gap-4'>
               <div className='text-2xl font-bold'>
-                <a href="https://www.linkedin.com/in/aman-tyagi-033322262/">Linkdin</a>
+                <a href="https://www.linkedin.com/in/aman-tyagi-033322262/">Linkedin</a>
               </div>
               <div className='h-10 w-10 rounded-full  cursor-pointer'>
                <a href="https://www.linkedin.com/in/aman-tyagi-033322262/"><img src={linkdin} alt="" /></a>
