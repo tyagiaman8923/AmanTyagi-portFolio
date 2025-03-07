@@ -8,19 +8,20 @@ const About = () => {
                <p className=' text-4xl font-bold inline border-b-4 border-gray-500'>About</p>   
             </div>
             <p className='md:text-xl md:mt-16 text-gray-400'>
-            I am a final year B.Tech student with a fervent 
-            passion for full-stack development. Proficient in HTML, CSS, JavaScript, and frameworks like React,
-             I have successfully crafted dynamic web interfaces, complemented by my backend expertise in Node.js, 
-             Express, and MongoDB.
+            I am a first-year M.Tech student at NIT Kurukshetra, specializing in Computer Engineering, and a 
+            passionate full-stack developer. I completed my B.Tech in Computer 
+            Science & Engineering from J.K. Institute of Applied Physics and Technology, University of Allahabad, with a CGPA of 8.3.
+            With expertise in C, C++, Python, Java, and modern web technologies like React, Tailwind CSS, Node.js,
+             Express.js, and MongoDB, I have built several full-stack applications.
             </p>
 
             <br />
 
             <p className=' md:text-xl text-gray-400'>
-            My journey is enriched by a commitment to mastering Data Structures and Algorithms,
-              evident in my engagement with coding challenges and competitions. Through a collection of impactful web
-               projects, I have demonstrated my creativity and problem-solving skills. As I near the end of my academic
-                journey, I am excited to channel my skills and enthusiasm into a rewarding career in the tech industry.
+            Beyond development, I am passionate about Data Structures and Algorithms (DSA) 
+            and actively participate in coding challenges and competitions to enhance my problem-solving abilities.
+            Through a collection of impactful projects, I continuously refine my skills and explore innovative solutions. As I advance
+             in my academic and professional journey, I am eager to contribute my expertise to the tech industry and create meaningful technological solutions
             </p>
         </div>
       
