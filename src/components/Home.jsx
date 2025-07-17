@@ -1,5 +1,5 @@
 import React from 'react'
-import HeroImage from '../assets/WhatsApp Image 2025-03-06 at 10.05.37 PM.jpeg'
+import HeroImage from '../assets/6323120075615356334.jpg'
 import github from "../assets/github.png";
 import linkdin from "../assets/317750_linkedin_icon.png";
 import insta from "../assets/3225191_app_instagram_logo_media_popular_icon.png";

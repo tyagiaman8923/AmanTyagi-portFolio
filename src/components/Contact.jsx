@@ -41,14 +41,14 @@ const Contact = () => {
       className=" w-full h-full bg-gradient-to-b from-black to-gray-800 p-4 text-white"
     >
        
-      <div className='max-w-screen-lg mx-auto flex flex-col justify-center items-center'>
+      <div className='w-full  mx-auto flex flex-col justify-center items-center'>
       <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact Me
           </p>
         <form
           ref={form}
           onSubmit={sendEmail}
-          className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-lg mt-16"
+          className="bg-gray-800 p-6 rounded-lg shadow-lg w-full max-w-screen-lg mt-16"
         >
           <label className="block text-lg mb-2">Name</label>
           <input
